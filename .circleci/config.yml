@@ -29,8 +29,7 @@ jobs:
           name: Create secrets env file
           command: |
             echo "API_KEY=${BINU_API_KEY}" > secrets.env
-            echo "API_SECRET=${BINU_API_SECRET}" >> secrets.env
-            cat secrets.env
+            echo "API_SECRET=${BINU_SECRET_KEY}" >> secrets.env
 
 
 
