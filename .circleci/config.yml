@@ -31,16 +31,7 @@ jobs:
             echo "API_KEY=${BINU_API_KEY}" > secrets.env
             echo "API_SECRET=${BINU_API_SECRET}" >> secrets.env
 
-  run:
-    docker:
-      - image: cimg/base:2022.06
-    steps:
-      - checkout
-      - setup_remote_docker
-      - run:
-          name: Run app
-          command: |
-            docker run -d -p 8000:5000 tomlui2010/cryptopricetracker
+
 
 workflows:
   version: 2
