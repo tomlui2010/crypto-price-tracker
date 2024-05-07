@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="../static/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <title>Crypto Price Tracker App</title>
+  </head>
+
+<body>
+    <div class="app-container" id="page">
+        <strong><h1 class="title-container"><center>Spot Index Price of Crypto Assets</center></h1></strong>
+    <h1></h1>
+    <div class="pricetracker">
+        <div class="result-container">
+            <p> The spot index price of {{price.symbol}} is USD ${{ price.price }} </p>
+            <button type="submit" onclick="window.history.back()">Back</button>
+        </div>
+    <footer class="bottomFooter">
+        <span class="text-muted">Thomas Louis 2024 - <a href="https://github.com/tomlui2010/crypto-price-tracker">Code</a></span>
+    </footer>
+    </div>
+
+</body>
+</html>

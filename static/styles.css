@@ -1,0 +1,129 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style app container */
+.app-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style title container */
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style button container */
+.btn-container {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-container:hover {
+    background-color: #0056b3;
+}
+
+/* Style form */
+.fancyForm {
+    margin-bottom: 20px;
+}
+
+/* Style input */
+input[type="text"] {
+    width: calc(100% - 130px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Style submit button */
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    /* Center horizontally */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+/* Style footer */
+.bottomFooter {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
+
+.bottomFooter a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bottomFooter a:hover {
+    text-decoration: underline;
+}
+
+/* Style title */
+h1 {
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    color: blue;
+}
+
+/* Style subheading */
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style result container */
+.result-container {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style result paragraph */
+.result-container p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
