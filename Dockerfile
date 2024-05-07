@@ -16,7 +16,7 @@ COPY requirements.txt requirements.txt
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 RUN pip install --upgrade pip &&\
-    pip install --trusted-host pypi.python.org -r requirements.txt
+    pip install --trusted-host pypi.python.org --no-cache-dir -r requirements.txt
 
 # Copy source code to working directory
 COPY . app.py /app/
