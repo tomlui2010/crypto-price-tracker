@@ -29,8 +29,8 @@ jobs:
       - run:
           name: Create secrets env file
           command: |
-          echo "API_KEY=${BINU_API_KEY}" > secrets.env
-          echo "API_SECRET=${BINU_API_SECRET}" >> secrets.env
+            echo "API_KEY=${BINU_API_KEY}" > secrets.env
+            echo "API_SECRET=${BINU_API_SECRET}" >> secrets.env
             
 
 workflows:
