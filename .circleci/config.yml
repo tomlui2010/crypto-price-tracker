@@ -41,6 +41,3 @@ workflows:
       - deploy:
           requires:
             - build
-      - run:
-          requires:
-            - deploy
